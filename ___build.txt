@@ -1,0 +1,36 @@
+How To Build "Torrent Youtube Downloader for FFMPEG"
+====================================================
+
+1. ImageMagick
+--------------
+- downloaded from: "https://imagemagick.org/download/binaries/ImageMagick-7.0.10-45-Q16-HDRI-x64-dll.exe"
+- installed to: "C:\Program Files\ImageMagick\magick.exe"
+
+2. LibTorrent v1.2.11
+---------------------
+- downloaded form: "https://github.com/arvidn/libtorrent/releases/tag/v1.2.11"
+- installed to: "C:\libtorrent-1.2.11"
+- built as:
+
+b2 msvc-14.2 variant=debug link=static runtime-link=static debug-symbols=on boost-link=static openssl-lib=C:\OpenSSL-Win32\lib\VC\static openssl-include=C:\OpenSSL-Win32\include
+
+b2 msvc-14.2 variant=debug link=static runtime-link=static debug-symbols=on
+
+b2 msvc-14.2 variant=release link=static runtime-link=static debug-symbols=off
+
+b2 msvc-14.2 variant=release link=static runtime-link=static debug-symbols=off boost-link=static openssl-lib=C:\OpenSSL-Win32\lib\VC\static openssl-include=C:\OpenSSL-Win32\include
+
+3. MSVC 2019 Professional or Enterprise
+---------------------------------------
+- downloaded from: "Microsoft Official Site"
+- installed to: <default path>
+
+Solution to build: Project1.sln (Release - x86)
+
+4. Inno Setup v6.1.2
+--------------------
+
+- downloaded from: "https://jrsoftware.org/download.php/is.exe"
+- installed to: <default path>
+
+Installer to build: __Installer.iss
