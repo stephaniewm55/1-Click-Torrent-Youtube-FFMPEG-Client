@@ -450,7 +450,7 @@ int main(int argc, char const* argv[]) try
 	}
 
 	if (argc == 3) {
-		printf("\nI will start playing automatically after 10%% of torrent will be downloaded.\n");
+		printf("\nI will start playing automatically after ~10%% of torrent will be downloaded.\n");
 	}
 
 	if (std::getenv("FFREPORT") != NULL)
@@ -472,7 +472,7 @@ int main(int argc, char const* argv[]) try
 	bool bIsTorrentFile = false;
 
 	strMagnetOrTorrent = argv[1];
-
+	// We can transparently download magnet link first time or resume it saved into *.txt file
 	bool bIsIndirect = (strMagnetOrTorrent.find(".txt") == (strMagnetOrTorrent.size() - 4));
 
 	if (bIsIndirect) {
