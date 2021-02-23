@@ -1,5 +1,9 @@
 # 1 Click Torrent Youtube FFMPEG Client
 
+Torrent/Youtube downloader and FFMPEG video converter/player, built in Windows File Explorer, without settings and dependencies.
+
+> Updated Feb 23 2021
+
 ## Official Site for News and Downloads
 
 ### [www.open-source.tech/1-Click-Torrent-Youtube-FFMPEG-Client/](https://www.open-source.tech/1-Click-Torrent-Youtube-FFMPEG-Client/)
