@@ -2,7 +2,7 @@
 
 Torrent/Youtube downloader and FFMPEG video converter/player, built in Windows File Explorer, without settings and dependencies.
 
-> Updated Feb 23 2021
+> Updated Mar 01 2021
 
 ## Official Site for News and Downloads
 
