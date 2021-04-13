@@ -1,8 +1,8 @@
 # 1 Click Torrent Youtube FFMPEG Client
 
-> Updated Apr 09 2021
+> Updated Apr 13 2021
 
-Torrent/Youtube downloader and FFMPEG video converter/player, built in Windows File Explorer, without settings and dependencies.
+1 Click Torrent Youtube FFMPEG Client 1.0.0.0 is a Torrent/Youtube downloader and FFMPEG video converter/player, built in Windows File Explorer, without settings and dependencies.
 
 #### Formerly FFMPEG Windows 1 Click (Intel-compiled) by mashanovedad
 
